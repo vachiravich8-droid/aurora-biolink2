@@ -1,0 +1,6 @@
+services:
+  - type: web
+    runtime: static
+    name: aurora-biolink2
+    buildCommand: echo "static site, no build"
+    staticPublishPath: .
